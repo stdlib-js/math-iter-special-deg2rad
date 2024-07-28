@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterDeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-deg2rad@deno/mod.js';
+import iterDeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-deg2rad@v0.2.2-deno/mod.js';
 ```
 
 #### iterDeg2rad( iterator )
@@ -106,7 +106,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import iterDeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-deg2rad@deno/mod.js';
+import iterDeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-deg2rad@v0.2.2-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -360.0, 360.0, {
